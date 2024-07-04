@@ -190,7 +190,7 @@ void showMenu(Restaurant restaurant) {
 
 void manageOrder(Restaurant restaurant) {
   while (true) {
-    stdout.write('Enter table number (or type 000 to finish): ');
+    stdout.write('Enter table number 1-10 (or type 000 to finish): ');
     var tableNumberInput = stdin.readLineSync()!;
     if (tableNumberInput == '000') return;
 
